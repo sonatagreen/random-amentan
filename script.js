@@ -120,10 +120,10 @@ document.body.innerText = 'You are a '+
 if (myCountry == 'elsewhere') {
     var listCountries = country.map(function(row){return row[0]}).slice(0,-1).join(', ')
 
-    document.body.innerHTML += '<hr><small><i><p>' +
+    document.body.innerHTML += '<hr><p>' +
         'You are <strong>not</strong> from any of the following countries:<br>' +
         listCountries +
         '.<p>Those are all the countries included in this version of this page, but not all the countries on Amenta; you\'re one of the approximately '+
         (Math.round(elsewherePopulation/(1000*1000*10))/100).toLocaleString() +' billion people ('+ Math.round(1000*elsewherePopulation/country[country.length-1][1])/10 +
-        '% of the world) from one of the many others. See <a href="'+countriesDataSource+'">the spreadsheet</a> for a more complete list.</p></i></small>'
+        '% of the world) from one of the many others. See <a href="'+countriesDataSource+'">the spreadsheet</a> for a more complete list.</p>'
 }

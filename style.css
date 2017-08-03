@@ -10,6 +10,7 @@ body {
     font-family: serif;
 }
 
-small {
+p {
     font-size: 50%;
+    font-style: italic;
 }
