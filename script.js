@@ -116,6 +116,6 @@ if (myCountry == 'elsewhere') {
         'You are <strong>not</strong> from any of the following countries:<br>' +
         listCountries +
         '.<p>Those are all the countries included in this version of this page, but not all the countries on Amenta; you\'re one of the approximately '+
-        elsewherePopulation.toLocaleString() +' ('+ Math.round(1000*elsewherePopulation/country[country.length-1][1])/10 +
-        '%) from one of the many others. See <a href="'+countriesDataSource+'">the spreadsheet</a> for a more complete list.</p></i></small>'
+        (Math.round(elsewherePopulation/(1000*1000*10))/100).toLocaleString() +' billion people ('+ Math.round(1000*elsewherePopulation/country[country.length-1][1])/10 +
+        '% of the world) from one of the many others. See <a href="'+countriesDataSource+'">the spreadsheet</a> for a more complete list.</p></i></small>'
 }
