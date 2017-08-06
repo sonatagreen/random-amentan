@@ -81,7 +81,7 @@ country = [ //               bbMMMttt...
     ['Tuvan',                  700000000],
     ['Tuviri',                 700000000],
     ['Vidalat',                  8000000],
-    ['Voa',                   1200000000],
+    ['Voa',                   1300000000], // Voa is bigger than Tapa: https://glowfic.com/replies/603819#reply-603819
     ['elsewhere',           -13000000000]  // World population: 13 billion
 ]
 
